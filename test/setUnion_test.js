@@ -13,9 +13,18 @@ describe('setUnion()', function() {
     expect(setUnion(a,b)).to.eql([1, 2, 3, 4, 6, 8])
   })
 
-  it('should error if either of the inputs is not an array', function() {
-    const a = 'not an array'
-    const b = [2, 4, 6, 8]
-    expect(setUnion(a, b)).to.equal("sets must be an array")
+  context('incorrect input', function() {
+
+    it('should err if either inputs arent arrays', function() {
+      const a = "what"
+      const b = [2, 4, 6, 8]
+      expect(setUnion(a,b)).to.eql("sets must be arrays")
+    })
+
+    it('should err if either inputs arent arrays', function() {
+      const a = [1, 2, 3, 4]
+      const b = "definitely not an array"
+      expect(setUnion(a,b)).to.eql("sets must be arrays")
+    })
   })
 })
