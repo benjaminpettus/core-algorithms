@@ -9,5 +9,8 @@ describe('factorial()', function(){
 
   it('should return the factorial of a number', function(){
     expect(factorial(5)).to.eql(120)
+    expect(factorial(10)).to.eql(3628800)
+    expect(factorial(3)).to.eql(6)
+
   })
 })
