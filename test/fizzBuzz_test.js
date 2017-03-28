@@ -7,7 +7,7 @@ describe('fizzBuzz()', function() {
     expect(fizzBuzz).to.be.a('function')
   })
 
-  it.only('returns an array of numbers from 1 to 100', function() {
+  it('returns an array of numbers from 1 to 100', function() {
     expect(fizzBuzz()).to.be.a('array')
     expect(fizzBuzz()).to.have.length(100)
   })
