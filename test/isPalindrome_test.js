@@ -20,4 +20,8 @@ describe('isPalindrome()', function() {
     expect(isPalindrome('A man, a plan, a canal: Panama')).to.be.true
   })
 
+  it('should err if the input is not a string', function() {
+    expect(isPalindrome(5)).to.eql('input not a string')
+  })
+
 })

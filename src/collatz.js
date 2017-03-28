@@ -1,8 +1,10 @@
 export default function collatz( n ) {
+  if(isNaN(n)){
+    return 'input is not a number'
+  }
   let number = n
   let result = []
    result.push(n)
-
    while (number != 1){
      if( number % 2 === 0  ){
        number = number / 2

@@ -12,4 +12,10 @@ describe('setUnion()', function() {
     const b = [2, 4, 6, 8]
     expect(setUnion(a,b)).to.eql([1, 2, 3, 4, 6, 8])
   })
+
+  it('should error if either of the inputs is not an array', function() {
+    const a = 'not an array'
+    const b = [2, 4, 6, 8]
+    expect(setUnion(a, b)).to.equal("sets must be an array")
+  })
 })

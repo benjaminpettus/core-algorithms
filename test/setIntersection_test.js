@@ -12,9 +12,10 @@ describe('setIntersection()', function() {
     expect(setIntersection(a, b)).to.eql([2, 4])
   })
 
-  it('should error if either of the inputs is not an array', function() {
+  it('should throw error if either of the inputs is not an array', function() {
     const a = 'not an array'
     const b = [2, 4, 6, 8]
     expect(setIntersection(a, b)).to.equal("sets must be an array")
   })
+  
 })
