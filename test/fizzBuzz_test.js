@@ -3,7 +3,7 @@ import fizzBuzz from '../src/fizzBuzz'
 
 describe('fizzBuzz()', function() {
 
-  it('should be a funciton', function(){
+  it('should be a function', function(){
     expect(fizzBuzz).to.be.a('function')
   })
 
