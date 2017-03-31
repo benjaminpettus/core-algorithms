@@ -46,5 +46,7 @@ Base repository for the [Core Algorithms](http://jsdev.learnersguild.org/goals/1
 
 clone the repo on to your machine
 run npm install
-run npm test 
+
+## Usage and Example
+run npm test to see if the tests are passing
 
