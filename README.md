@@ -27,8 +27,8 @@ Base repository for the [Core Algorithms](http://jsdev.learnersguild.org/goals/1
 ## Quality Rubric
 
 ### Well formatted code
-- [ ] Code uses a linter, which can be invoked with a command (e.g. npm run lint). [50 points]
-- [ ] Running the linter on all source code files generates no linting errors. [50 points]
+- [x] Code uses a linter, which can be invoked with a command (e.g. npm run lint). [50 points]
+- [x] Running the linter on all source code files generates no linting errors. [50 points]
 
 ### Clear and useful README
 - [x] Repository includes a README file with installation and setup instructions. [25 points]
@@ -48,7 +48,7 @@ clone the repo on to your machine
 run npm install
 
 ## Usage and Example
- npm test - in your console to see if the tests are passing
- npm run lint-src - to run linter on the src folder
- npm run lint-test - to run linter on the test folder
+-npm test - in your console to see if the tests are passing
+-npm run lint-src - to run linter on the src folder
+-npm run lint-test - to run linter on the test folder
 
