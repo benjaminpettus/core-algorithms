@@ -6,7 +6,7 @@ export default function collatz( n ) {
   let result = []
    result.push(n)
    while (number != 1){
-     if( number % 2 === 0  ){
+     if(number % 2 === 0g){
        number = number / 2
        result.push(number)
      } else {
