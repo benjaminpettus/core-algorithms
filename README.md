@@ -48,5 +48,7 @@ clone the repo on to your machine
 run npm install
 
 ## Usage and Example
-run npm test to see if the tests are passing
+ npm test - in your console to see if the tests are passing
+ npm run lint-src - to run linter on the src folder
+ npm run lint-test - to run linter on the test folder
 
