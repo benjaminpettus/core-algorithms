@@ -44,8 +44,7 @@ Base repository for the [Core Algorithms](http://jsdev.learnersguild.org/goals/1
 
 ## Installation and Setup
 
-_Fill this out_
+clone the repo on to your machine
+run npm install
+run npm test 
 
-## Usage and Examples
-
-_...and this_
